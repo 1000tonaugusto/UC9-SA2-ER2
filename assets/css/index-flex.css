@@ -1,0 +1,276 @@
+@font-face {
+  font-family: fontInfo;
+  src: url(../fonts/Telex-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: fontEmail;
+  src: url(../fonts/ShareTech-Regular.ttf);
+}
+
+@font-face {
+  font-family: fontSecao;
+  src: url(../fonts/SigmarOne-Regular.ttf);
+}
+
+body {
+    width: 120rem;
+    height: 197.5rem;
+    background: radial-gradient(38.71% 136.09% at 50.71% 0%, rgba(88, 173, 215, 0.8) 0%, rgba(46, 48, 47, 0.8) 90.36%);
+}
+
+#barraTitulo {
+    width: 100.5rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    font-size: 2em;
+    width: 100.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu a {
+  color: white;
+}
+
+#tituloCab {
+    margin-bottom: 0%;
+    font-family: fontSecao;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+#iconeUsuario, #iconeCarrinho {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#campoPesquisar {
+  width: 13rem;
+  height: 1.5rem;
+  background-color: #C4C4C4;
+  border-radius: 0.60rem;
+}
+
+#barra {
+    width: 100.5rem;
+    border: 0.5rem solid #3A3636;
+    mix-blend-mode: difference;
+}
+
+nav {
+    overflow: hidden;
+    text-align: center;
+}
+  
+nav a {
+    font-family: fontSecao;
+    color: #F0F0F0;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+}
+
+#myCarousel {
+    width: 100.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tituloSecao {
+  text-align: center;
+  background-color: #3A3636;
+  width: 100.5rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tituloSecao h1 {
+  font-family: fontSecao;
+  color: #F0F0F0;
+}
+
+.quadroPai1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100.5rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quadroItem1 {
+  margin-bottom: 1%;
+  background-color: #CFCFCF;
+  border-radius: 5%;
+  mix-blend-mode:initial;
+  border: 1px #000000;
+}
+
+.quadroItem1 img {
+  filter: blur(0px) !important;
+  mix-blend-mode:normal !important;
+  display: block;
+  height: 19.375rem;
+}
+
+.quadroItem p {
+  font-family: fontEmail;
+  font-size: 1.4rem;
+  padding: 0;
+  width: 16.125rem;
+}
+
+.quadroItem1 .preco {
+  color: #AD2A2A;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+
+#areaEmail {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  background-color: #3A3636;
+  width: 100.5rem;
+  height: 8rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#textoEmail {
+  font-family: fontEmail;
+  width: 36.688rem;
+  color: #FCFCFF;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#textoEmail h1,
+#textoEmail h2 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+form #campoEmail  {
+  width: 38.75rem;
+  height: 1.8rem;
+  background-color: #C4C4C4;
+  border-radius: 0.60rem;
+}
+
+button {
+    font-family: fontEmail;
+    background-color: #C4C4C4;
+    font-size: 1.2em;
+    width: 10rem;
+    height: 2.3rem;
+}
+
+#areaInfo {
+  display:flex;
+  flex-direction: row;
+  width: 100.5rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#institucional, #atendimento, #redes {
+  font-family: fontInfo;
+  color: #C4C4C4;
+}
+
+li a {
+  text-decoration: none;
+  color: #C4C4C4;
+}
+
+#institucional ul {
+    padding: 0%;
+}
+
+#institucional li {
+    font-size: 1.75rem;
+    list-style-type: none;
+    height: 2rem;
+}
+
+#atendimento li, #redes li {
+    font-size: 1.75rem;
+}
+
+#telefone {
+    list-style-image: url('../imagem/Icones/telefone.png');
+}
+
+#email {
+    list-style-image: url('../imagem/Icones/email_32x32.png');
+}
+
+#whatsapp {
+    list-style-image: url('../imagem/Icones/whatsapp.png');
+}
+
+#facebook {
+    list-style-image: url('../imagem/Icones/facebook.png');
+}
+
+#instagram {
+    list-style-image: url('../imagem/Icones/instagram.png');
+}
+
+#twitter {
+    list-style-image: url('../imagem/Icones/twitter.png');
+}
+#pagamento {
+  font-family: fontInfo;
+  width: 26.25rem;
+  color: #C4C4C4;
+}
+
+.slider {
+    width: 70%;
+    margin: auto auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
