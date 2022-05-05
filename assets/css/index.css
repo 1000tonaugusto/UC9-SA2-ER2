@@ -1,18 +1,18 @@
 @font-face {
   font-family: fontInfo;
-  src: url(assets/fonts/Telex-Regular.ttf) format('truetype');
+  src: url(../fonts/Telex-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;  
 }
 
 @font-face {
   font-family: fontEmail;
-  src: url(assets/fonts/ShareTech-Regular.ttf);
+  src: url(../fonts/ShareTech-Regular.ttf);
 }
 
 @font-face {
   font-family: fontSecao;
-  src: url(assets/fonts/SigmarOne-Regular.ttf);
+  src: url(../fonts/SigmarOne-Regular.ttf);
 }
 
         body {
